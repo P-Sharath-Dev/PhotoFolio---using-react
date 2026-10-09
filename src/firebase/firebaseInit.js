@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB9jf0RX3_f2BuDZYKSeieSp3MlqqxPNu4",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "photofolio-f2eb0.firebaseapp.com",
   projectId: "photofolio-f2eb0",
   storageBucket: "photofolio-f2eb0.firebasestorage.app",
