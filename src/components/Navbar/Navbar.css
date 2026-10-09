@@ -1,0 +1,26 @@
+.navbar {
+  height: 90px;
+  background-color: #2cc4f7ab;
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.logo-container img {
+  width: 33px;
+}
+
+.logo-container h2 {
+  margin: 0;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+}

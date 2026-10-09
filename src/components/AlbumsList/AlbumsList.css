@@ -1,0 +1,112 @@
+.albums-list {
+  width: 90%;
+  margin: 40px auto;
+}
+
+.albums-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.albums-header h1 {
+  font-size: 32px;
+  color: #3f3f3f;
+}
+
+.add-album-btn {
+  background-color: #8fc3fa1a;
+  color: #0077ff;
+  /* border: 2px solid #ff1300; */
+  border: 2px solid #0077ff;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  background-color: #ff13001a;
+  color: #ff1300;
+
+  border: 2px solid #ff1300;
+  border-radius: 8px;
+
+  padding: 10px 18px;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+/* .add-album-btn:hover {
+  background-color: #0077ff;
+  color: white;
+} */
+
+.albums-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+
+  margin-top: 30px;
+}
+
+.album-card {
+  width: 155px;
+  height: 165px;
+  border: 2px solid #ececec;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.album-image {
+  height: 125px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: white;
+}
+
+.album-image img {
+  width: 48px;
+}
+
+.album-name {
+  height: 40px;
+
+  background: #ededed;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.album-name h3 {
+  margin: 0;
+
+  font-size: 15px;
+  font-weight: 700;
+
+  color: #222;
+}
+
+.album-card:hover {
+  border-color: #1976ff;
+}
+
+.album-card:hover .album-name {
+  background: #1976ff;
+}
+
+.album-card:hover .album-name h3 {
+  color: white;
+}

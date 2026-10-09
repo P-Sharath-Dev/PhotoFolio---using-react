@@ -1,0 +1,47 @@
+.album-form {
+  width: 55%;
+  margin: 30px auto;
+  background-color: #f5f5f5;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.album-form h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.album-form input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.clear-btn,
+.create-btn {
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.clear-btn {
+  background: #ffb3b3;
+}
+
+.create-btn {
+  background: #0077ff;
+  color: white;
+}

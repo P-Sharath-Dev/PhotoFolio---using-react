@@ -1,0 +1,45 @@
+.image-form {
+  width: 60%;
+  margin: 30px auto;
+  background: #f5f5f5;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.image-form h2 {
+  margin-bottom: 20px;
+}
+
+.image-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.clear-btn,
+.create-btn {
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.clear-btn {
+  background: #ff1300;
+  color: white;
+}
+
+.create-btn {
+  background: #0077ff;
+  color: white;
+}
